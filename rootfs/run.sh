@@ -14,4 +14,4 @@ ln -v -s /data/cups /etc/cups
 
 bashio::log.info "Starting CUPS server as CMD from S6"
 
-cupsd -f
+exec cupsd -f
