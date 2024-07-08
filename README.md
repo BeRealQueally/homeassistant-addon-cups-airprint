@@ -38,4 +38,4 @@ In case you find out during adding the printer in CUPS that the driver has `requ
    ```
 6. Proceed through the steps, in most cases it's right to just follow the default answers. When the installer prompts for superuser/root password, provide the one set in step 4.
 7. At the end, installer will ask you if you want to print a test page. If you choose to, don't be worried if it fails - it should work fine in CUPS anyway.
-8. Now go to CUPS Administration panel (`http://<ip-of-hass-pc>:631/printers`). Your printer should have already been added by the installer. Try to print the test page. Voila!
+8. Now go to [CUPS Administration panel](http://homeassistant.local:631/printers). Your printer should have already been added by the installer. Try to print the test page. Voila!
